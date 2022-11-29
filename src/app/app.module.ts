@@ -8,6 +8,7 @@ import { PassangerviewComponent } from './passangerview/passangerview.component'
 import { UpublicdataComponent } from './upublicdata/upublicdata.component';
 import { PublicapiComponent } from './publicapi/publicapi.component';
 import { ProductComponent } from './product/product.component';
+import { UserdataComponent } from './userdata/userdata.component';
 
 @NgModule({
   declarations: [
@@ -15,12 +16,14 @@ import { ProductComponent } from './product/product.component';
     PassangerviewComponent,
     UpublicdataComponent,
     PublicapiComponent,
-    ProductComponent
+    ProductComponent,
+    UserdataComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
