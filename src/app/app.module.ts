@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { PassangerviewComponent } from './passangerview/passangerview.component';
 import { UpublicdataComponent } from './upublicdata/upublicdata.component';
 import { PublicapiComponent } from './publicapi/publicapi.component';
+import { ProductComponent } from './product/product.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PassangerviewComponent,
     UpublicdataComponent,
-    PublicapiComponent
+    PublicapiComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,
