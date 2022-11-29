@@ -10,6 +10,7 @@ import { PublicapiComponent } from './publicapi/publicapi.component';
 import { ProductComponent } from './product/product.component';
 import { UserdataComponent } from './userdata/userdata.component';
 import { TodoComponent } from './todo/todo.component';
+import { QuotesappComponent } from './quotesapp/quotesapp.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { TodoComponent } from './todo/todo.component';
     PublicapiComponent,
     ProductComponent,
     UserdataComponent,
-    TodoComponent
+    TodoComponent,
+    QuotesappComponent
   ],
   imports: [
     BrowserModule,
